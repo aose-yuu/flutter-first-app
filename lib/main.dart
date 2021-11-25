@@ -15,6 +15,20 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('first_app'),
         ),
+        body: Column(
+            children: <Widget>[
+              Text('flutter.', style: TextStyle(fontSize: 24.0),),
+              Text('flutter.', style: TextStyle(fontSize: 24.0),),
+              Text('flutter.', style: TextStyle(fontSize: 24.0),),
+              Text('flutter.', style: TextStyle(fontSize: 24.0),),
+              Text('flutter.', style: TextStyle(fontSize: 24.0),),
+              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
+              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
+              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
+              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
+              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
+            ],
+            ),
       ),
     );
   }
