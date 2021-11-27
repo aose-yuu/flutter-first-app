@@ -16,19 +16,36 @@ class MyApp extends StatelessWidget {
           title: Text('first_app'),
         ),
         body: Column(
-            children: <Widget>[
-              Text('flutter.', style: TextStyle(fontSize: 24.0),),
-              Text('flutter.', style: TextStyle(fontSize: 24.0),),
-              Text('flutter.', style: TextStyle(fontSize: 24.0),),
-              Text('flutter.', style: TextStyle(fontSize: 24.0),),
-              Text('flutter.', style: TextStyle(fontSize: 24.0),),
-              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
-              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
-              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
-              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
-              Text('It\'s flutter app.', style: TextStyle(fontSize: 24.0),),
-            ],
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'JoJo',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  'JoJo',
+                  style: TextStyle(fontSize: 50.0),
+                )
+              ],
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'JoJo',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  'JoJo',
+                  style: TextStyle(fontSize: 50.0),
+                )
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
