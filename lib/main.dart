@@ -32,6 +32,15 @@ class MyApp extends StatelessWidget {
               ],
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'JoJo',
+                  style: TextStyle(fontSize: 50.0),
+                )
+              ],
+            ),
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
