@@ -19,40 +19,130 @@ class MyApp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Text(
-                  'JoJo',
+                  '0',
                   style: TextStyle(fontSize: 50.0),
                 ),
                 Text(
-                  'JoJo',
+                  '0',
                   style: TextStyle(fontSize: 50.0),
-                )
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
+                ),
                 Text(
-                  'JoJo',
+                  '0',
                   style: TextStyle(fontSize: 50.0),
-                )
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'JoJo',
+                  '0',
                   style: TextStyle(fontSize: 50.0),
                 ),
                 Text(
-                  'JoJo',
+                  '0',
                   style: TextStyle(fontSize: 50.0),
-                )
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
               ],
-            )
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+              ],
+            ),
           ],
         ),
       ),
