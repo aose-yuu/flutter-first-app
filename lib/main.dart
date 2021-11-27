@@ -15,6 +15,136 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('first_app'),
         ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+                Text(
+                  '0',
+                  style: TextStyle(fontSize: 50.0),
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
